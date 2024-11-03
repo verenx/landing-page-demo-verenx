@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 5px 140px 60px 140px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-body {
+    display: flex;
+    gap: 50px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+
+.heading-1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+a.sign-up-btn-1 {
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    background-color: #3882F6;
+    border-radius: 4px;
+}
+
+.header-img {
+    height: 180px;
+    background-color: #6D747D;
+    text-align: center;
+    justify-content: flex-end;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.main {
+    padding: 60px 150px 60px 150px;
+    text-align: center;
+}
+
+.heading-2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;;
+}
+
+.img-grid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.subtext {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.sign-up {
+    width: 1200px;
+    height: 100px;
+    margin: 60px auto;
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    background-color: #3B82F6;
+    border-radius: 4px;
+}
+
+.sign-up-body {
+    align-self: center;
+}
+
+.heading-3 {
+    font-weight: 800;
+    font-size: 24px;;
+}
+
+.sign-up-btn-2-container {
+    align-self: center;
+}
+
+a.sign-up-btn-2 {
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+}
+
